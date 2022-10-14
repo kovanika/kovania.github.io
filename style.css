@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header__button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #FFFFFF;
+}
+.body {
+    font-family: 'Inter', sans-serif;
+}
+
+.button {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contatiner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.header {
+    height: 80px;
+}
+
+.h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #181818;
+}
+
+/*голове начало*/
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header__actions {
+    display: flex;
+    gap: 20px;
+}
+
+
+.header__button + .header__button {
+    margin-left: 10px;
+}
+/*голове конец*/
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-row__button {
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #A6C81E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-row__button::before {
+    content: url('+.svg');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.card1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 216px;
+}
+.card2{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 216px;
+    margin-left: 250px;
+    margin-top: -216px;
+}
+.card3{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 216px;
+    margin-left: 500px;
+    margin-top: -216px;
+}
+.card4{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 216px;
+    margin-left: 750px;
+    margin-top: -216px;
+}
+.card5{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 216px;
+    margin-left: 1000px;
+    margin-top: -216px;
+}
+.card{
+    background: rgba(0, 0, 0, 0.03);
+    padding: 30px;
+    border-radius: 20px;
+    left: 110px;
+    width: 166px;
+    height: 216px;
+    margin: 10px;
+}
+
+.card__date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #838383;
+}
+
+.card__title {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+}
+
+.card__button {
+    margin-top: 12px;
+    border: 2px solid #A6C81E;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6C81E;
+}
+.dalee{
+    margin-top: 12px;
+    border: 2px solid #A6C81E;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6C81E;
+    width: 1245px;
+    margin-top: 475px;
+}
+.info{
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6C81E;
+    text-align-all: justify;
+}
+.mail{
+    text-align: left;
+}
+.programmer{
+    text-align: right;
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+.User{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #838383;
+    margin-top: 100px;
+    margin-left: -1010px;
+}
+.text{
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.button1{
+    background-color: #A6C81E;
+}
+.down1{
+    margin-top: 500px;
+}
+
+
+
+
+
+
+
